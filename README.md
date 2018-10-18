@@ -14,11 +14,12 @@ It includes 5088 car images, along with a .gif file that contains the manually c
 
 ## Data Augmentation
 The project relies on data augmentation to improve the performance of the model.
-Input images are transformed using random translations and rotations. Furthermore, random scale and hue shifts are applied, as shown in the following picture.
+Input images are transformed using random translations and rotations. Furthermore, random scale and hue shifts are applied, as shown in the following pictures.
 
-<img src="img/mini.jpg" width="47%"/>
-<img src="img/mini_augmented.png" width="47%" style="float: right"/>
-
+<p align="center">
+<img src="img/mini.jpg" width="48%"/>
+<img src="img/mini_augmented.png" width="48%" align="right"/>
+<p/>
 
 ## Architecture
 
