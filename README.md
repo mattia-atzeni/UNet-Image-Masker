@@ -6,7 +6,7 @@ Recently, Deep Learning algorithm have been used to perform the segmentation of 
 
 ## Data
 
-The training set for this project is available on [Kaggle](https://www.kaggle.com/c/carvana-image-masking-challenge/data) and it is provided by [Carvana](https://www.carvana.com/).
+The training set for this project is available on [Kaggle](https://www.kaggle.com/c/carvana-image-masking-challenge/data) and is provided by [Carvana](https://www.carvana.com/).
 It includes 5088 car images, along with a .gif file that contains the manually cutout mask for each image, as shown below.
 
 ![](img/audi.jpg)|![](img/audi_mask.png)
@@ -55,6 +55,6 @@ The following picture shows a segmentation produced by the system on an image in
 * h5py
 
 ## Usage
-
+Download the data and place the images into a ```input``` folder.
 * Run ```python train.py``` to train the model.
 * Run ```python test.py``` to make predictions on test data.
